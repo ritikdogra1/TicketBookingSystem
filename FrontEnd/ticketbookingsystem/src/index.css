@@ -1,0 +1,23 @@
+.banner.stepBox {
+    transition: color 0.3s, transform 0.3s;
+     padding: 20px;
+     border-radius: 500px;
+     text-align: center;
+   }
+   .banner.stepBox > img {
+     color: greenyellow !important;
+      transform: scale(1.7);
+     width: 100%;
+     height: 400px;
+     object-fit: cover;
+     background-color: #000;
+   }
+   .zoom{
+     transition: color 0.3s, transform 0.3s;
+   }
+   .zoom:hover {
+     color: green !important;
+     transform: scale(1.1);
+   }
+ 
+ 
